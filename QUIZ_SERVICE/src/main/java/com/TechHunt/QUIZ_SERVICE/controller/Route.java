@@ -16,6 +16,7 @@ public class Route {
 
     @PostMapping(value = "/create")
     public ResponseEntity<Quiz> create(@RequestBody Quiz quiz) {
+        System.err.println("Here");
         return ResponseEntity.ok().body(quizService.add(quiz));
     }
 
@@ -25,7 +26,7 @@ public class Route {
     }
 
     @GetMapping("/get")
-    public ResponseEntity<Quiz> getOne(@RequestParam Long id) {
-        return ResponseEntity.ok().body(quizService.get(id));
+    public ResponseEntity<Quiz> getOne(@RequestParam Long quizId) {
+        return ResponseEntity.ok().body(quizService.get(quizId));
     }
 }

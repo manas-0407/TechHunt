@@ -29,8 +29,8 @@ public class Route {
         return questionService.getOne(questionId);
     }
 
-    @GetMapping("/quiz")
-    public List<Question> getQuestionsOfQuiz(@RequestParam Long quizId) {
+    @GetMapping("/quiz/{quizId}")
+    public List<Question> getQuestionsOfQuiz(@PathVariable Long quizId) {
         return questionService.getQuestionsOfQuiz(quizId);
     }
 
