@@ -1,7 +1,7 @@
-package com.TechHunt.QUESTION_SERVICE.controller;
+package com.TechHunt.QUIZ_SERVICE.controller;
 
-import com.TechHunt.QUESTION_SERVICE.models.Question;
-import com.TechHunt.QUESTION_SERVICE.service.QuestionService;
+import com.TechHunt.QUIZ_SERVICE.models.Question;
+import com.TechHunt.QUIZ_SERVICE.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping ("/question")
-public class Route {
+public class QuestionRoute {
 
     @Autowired
     private QuestionService questionService;

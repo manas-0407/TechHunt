@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/quiz")
-public class Route {
+public class QuizRoute {
 
     @Autowired
     private QuizService quizService;

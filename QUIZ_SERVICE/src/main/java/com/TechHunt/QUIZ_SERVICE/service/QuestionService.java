@@ -1,8 +1,8 @@
-package com.TechHunt.QUESTION_SERVICE.service;
+package com.TechHunt.QUIZ_SERVICE.service;
 
 
-import com.TechHunt.QUESTION_SERVICE.models.Question;
-import com.TechHunt.QUESTION_SERVICE.repository.QuestionRepository;
+import com.TechHunt.QUIZ_SERVICE.models.Question;
+import com.TechHunt.QUIZ_SERVICE.repository.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

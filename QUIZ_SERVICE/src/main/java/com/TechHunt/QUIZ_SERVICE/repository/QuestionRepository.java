@@ -1,6 +1,6 @@
-package com.TechHunt.QUESTION_SERVICE.repository;
+package com.TechHunt.QUIZ_SERVICE.repository;
 
-import com.TechHunt.QUESTION_SERVICE.models.Question;
+import com.TechHunt.QUIZ_SERVICE.models.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
